@@ -4,4 +4,4 @@ services:
     ports:
       - 8001:80
     volumes:
-      - ./:/usr/local/share/html
+      - ./:/usr/share/nginx/html
