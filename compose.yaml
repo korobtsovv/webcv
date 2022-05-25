@@ -4,8 +4,7 @@ services:
     ports:
       - 8001:80
     volumes:
-      # - ./:/usr/share/nginx/html
-      - ./www:/var/www
+      - ./www:/var/www/myresume
       - ./templates:/etc/nginx/templates
     environment:
-      - NGINX_ROOT=/var/www
+      - NGINX_ROOT=/var/www/myresume
